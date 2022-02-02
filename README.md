@@ -13,9 +13,10 @@ The goal of this project will be to produce insights that will help a venture ca
 We will use data taken from [Crunchbase.com](https://www.crunchbase.com/) to conduct this analysis. This includes a dataset where [each row is a funding round](https://www.crunchbase.com/discover/funding_rounds/77238993ceeb2b8e0e84e9ea364a0342), and another where [each row is a company](https://www.crunchbase.com/discover/organization.companies/d5287eff9c642c766d63632c9da4ee22)
 <br></br>
 ## Tools:
-- **Pandas** and **NumPy** for Data Ingestion, EDA
-- **Seaborn** and **Matplotlib** for Visualization
+- **Pandas**, **NumPy**, and **Google Sheets** for Data Ingestion, EDA
+- **Seaborn**, **Matplotlib**, and **Tableau Public** for Visualization
 - **Scikit-learn** for regession analysis and model testing.
+
 <br></br>
 ## MVP Goal:
 Produce an exploratory data analysis of the available data and a baseline model with feature coefficients for future iterations.
