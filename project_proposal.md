@@ -1,22 +1,24 @@
-# Predicting Funding Rounds for Web3/Blockchain Startups #
+# NYC AirBnB Price Optimization #
 ### By: Nate DiRenzo
 
 ## Statement of Need:
-In recent years, web3 and blockchain startups in the US have received a massive influx of venture capital. In 2021 alone, this number exceeded $33 Billion-- more than all other years combined. Among the firms leading the way are firms such as [Paradigm](https://techcrunch.com/2021/11/15/crypto-vc-firm-paradigm-debuts-monster-2-5-billion-fund/) and [Andreessen Horowitz](https://www.coindesk.com/business/2022/01/20/andreessen-horowitz-looks-to-raise-45b-for-new-crypto-funds-report/), both of which have committed over $2 billion to the space in 2021 with more to come in 2022. But what is web3 and blockchain? In some ways it's a [rebranding](https://www.vox.com/recode/22907072/web3-crypto-nft-bitcoin-metaverse#:~:text=Let's%20start%20here%3A%20At%20its,human%20intervention%20or%20centralized%20oversight.) of the more ominous-sounding 'crypto'. In others, it's a more encompassing definition that better captures the opportunity these technologies present for a better version of the internet. Whatever the case may be, it's a space getting a lot of attention from consumers and investers alike. 
 
-Despite this surge in interest for all things blockchain and web3, the space is young, and not well understood. [Some](https://www.nytimes.com/2021/12/20/technology/silicon-valley-cryptocurrency-start-ups.html) see it as the next frontier in innovation, while others think of it merely as a [bubble and a scam](https://www.cnbc.com/2021/12/03/crypto-investors-see-an-nft-bubble-but-tout-power-of-underlying-tech.html). Here, we will evaluate a dataset taken from Crunchbase to see if we can draw meaninfgul insights for a venture capital firm who already has investments in the space, or is looking to invest in the web3/blockchain space.
+Optimizing the pricing of AirBnB listings makes sense for all parties involved. For hosts, having a competitive price point helps to maximize profit, without missing any opportunities. For guests, it makes sure they have options, and aren't overpaying for their stay. For AirBnB, it increases user engagement on both sides of transaction, and helps remove the barriers to entry for potential hosts by giving them one less thing to worry about.
 <br></br>
 ## Goal:
-The goal of this project will be to produce insights that will help a venture capital fund evaluate potential investments in organizations in the web3 space. Specifically, we will seek to identify and understand the relationship between features present in the dataset and the target variable: amount of funding a company has recieved. As a further goal, we will train and evaluate the efficacy of a regression model for predicting total funding amounts.
+The goal of this project is to identify the key features within the dataset that have some predictive power on price. Once we have identified and visualized those relationships, a further goal will be to train and evaluate a linear regression model that can predict a givien listing's price accurately.
+
+## Success Metrics:
+The primary goal of this project is to deliver meaningful business impact to our client, AirBnB. In that sense, the deliverable is a cost optimization model that, when put into production, increases both number of listings and number of bookings, as well as reudcing the number of inactive listings, and listings with availability in the next 30 days. This would indicate that our model is removing barriers to entry for potential hosts, optimizing the market for existing listings, and providing a better experience to renters via more options at better price points.
 <br></br>
 ## Data Description:
-We will use data taken from [Crunchbase.com](https://www.crunchbase.com/) to conduct this analysis. This includes a dataset where [each row is a funding round](https://www.crunchbase.com/discover/funding_rounds/77238993ceeb2b8e0e84e9ea364a0342), and another where [each row is a company](https://www.crunchbase.com/discover/organization.companies/d5287eff9c642c766d63632c9da4ee22)
+We will use data taken from [InsideAirBnB.com](http://insideairbnb.com/get-the-data.html) to conduct this analysis. The dataset includes pertinent features for our purposes, such as borough, neighborhood, number of guests accomodated, bedrooms, bathrooms, and many more. A detailed dictionary of the dataset's features can be found [here](https://docs.google.com/spreadsheets/d/1iWCNJcSutYqpULSQHlNyGInUvHg2BoUGoNRIGa6Szc4/edit#gid=982310896).
 <br></br>
 ## Tools:
 - **Pandas**, **NumPy**, and **Google Sheets** for Data Ingestion, EDA
 - **Seaborn**, **Matplotlib**, and **Tableau Public** for Visualization
-- **Scikit-learn** for regession analysis and model testing.
+- **Scikit-learn** and **XGBoost** for regession analysis and model testing.
 
 <br></br>
 ## MVP Goal:
-Produce an exploratory data analysis of the available data and a baseline model with feature coefficients for future iterations.
+Produce an initial analysis of the dataset identifying and visualizing a set of core features and their relationships' with our target variable (listing price). 
