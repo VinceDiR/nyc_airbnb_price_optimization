@@ -4,6 +4,8 @@ The goal of this project is to understand what variables have the biggest impact
 
 [Tableau Dashboard](https://public.tableau.com/views/NYCAirBnBWorkbook/AirBnBNYCPriceDashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
+![Screenshot](https://drive.google.com/file/d/1isQiusGLP1OzyjBjqYjVINyiMg0kjg5o/view?usp=sharing)
+
 As a first iteration on this project, I put together a Tableau dashboard highlighting some of the variables with significant correlations to price, as well as a breakdown of price by listing type, neighborhood, borough, etc.
 
 The visualizations show a positive correlation between number of beds/bathrooms, number accomodates and price,  as well as differences in average price across both borough and neighborhood.
