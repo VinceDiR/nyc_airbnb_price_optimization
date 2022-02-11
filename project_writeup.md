@@ -7,7 +7,7 @@ The goal of this project was to help AirBnB increase user engagement on their pl
 ## Design
 This project came about for a few reasons: First, I am an AirBnB host. Second, I believe the end of the COVID pandemic will lead to a surge in people travelling. And third, AirBnB's profit model relies on 3% service fees on both sides of a transaction happening through their website. I'm interested in understanding if more users transacting at marginally lower price points would increase or decrease AirBnB's net profit.
 
-Practically speaking, this project is designed to generate meaningful insights about which variables in our daataset would be good candidates for features in a price prediction model and present those insights to business stakeholders in a compelling manner. The desired outcome is to get approval for additional work on the proposal.
+Practically speaking, this project is designed to generate meaningful insights about which variables in our dataset would be good candidates for features in a price prediction model and present those insights to business stakeholders in a compelling manner. The desired outcome is to get approval for additional work on the proposal.
 
 ## Data
 The dataset used in this project contains 38,000+ AirBnB listings in NYC as of 6 January 2022. It was collected from [InsideAirBnB](http://insideairbnb.com/get-the-data.html).
