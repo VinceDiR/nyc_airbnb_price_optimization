@@ -20,4 +20,4 @@ Additionally, [Neighborhood Shapefiles](https://www1.nyc.gov/site/planning/data-
 ## Communication
 All Visualizations and Presentation Material can be found in my [Tableau Public Dashboard](https://public.tableau.com/app/profile/nate.direnzo/viz/NYCAirBnBWorkbook/Presentation)
 
-<img src="dashboard.png" width=500>
+<img src="dashboard.png" width=1000>
