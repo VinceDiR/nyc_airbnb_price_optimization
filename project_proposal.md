@@ -17,9 +17,7 @@ For the model, our metric of success is accuracy with which it predicts the pric
 We will use data taken from [InsideAirBnB.com](http://insideairbnb.com/get-the-data.html) to conduct this analysis. We will use this dataset because it includes pertinent features for our purposes, such as borough, neighborhood, number of guests accomodated, bedrooms, bathrooms, and many more. A detailed dictionary of the dataset's features can be found [here](https://docs.google.com/spreadsheets/d/1iWCNJcSutYqpULSQHlNyGInUvHg2BoUGoNRIGa6Szc4/edit#gid=982310896).
 <br></br>
 ## Tools:
-- **Pandas**, **NumPy**, and **Google Sheets** for Data Ingestion, EDA
-- **Seaborn**, **Matplotlib**, and **Tableau Public** for Visualization
-- **Scikit-learn** and **XGBoost** for regession analysis and model testing.
+- **Tableau** for data ingestion, manipulation, visualization
 
 <br></br>
 ## MVP Goal:
