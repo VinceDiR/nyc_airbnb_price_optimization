@@ -14,6 +14,10 @@ The dataset used in this project contains 38,000+ AirBnB listings in NYC as of 6
 
 Additionally, [Neighborhood Shapefiles](https://www1.nyc.gov/site/planning/data-maps/open-data/census-download-metadata.page) and [Borough Boundaries](https://data.cityofnewyork.us/City-Government/Borough-Boundaries/tqmj-j8zm) from the City of New York were used for spatial joins and grouping.
 
+## Algorithms
+*Exploratory Data Analysis*
+- Used a variety of EDA techniques to identify and visualize variables relationships to price, such as grouping, aggregation, pivot tables, trend and reference lines, filtering, and highlighting within Tableau 
+
 ## Tools
 - **Tableau** for ingestion, manipulation, interactive visualizations
 
